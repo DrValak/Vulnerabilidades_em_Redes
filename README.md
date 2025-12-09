@@ -18,6 +18,12 @@ O trabalho foi desenvolvido no âmbito da Unidade Curricular de **Segurança em 
 
 ---
 
+### Esquema de Rede Analisado
+
+Este é o diagrama de rede original que serviu como base para a análise de vulnerabilidades.
+
+![Diagrama da arquitetura de rede inicial para análise de segurança](enunciado/esquema_de_rede.png)
+
 ## 🔑 Metodologia de Análise e Modelação de Ameaças
 
 A análise seguiu uma abordagem estruturada, identificando pontos críticos de falha, modelando possíveis caminhos de ataque e propondo controlos de segurança por camadas (**Defesa em Profundidade**).
