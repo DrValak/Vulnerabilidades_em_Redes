@@ -14,7 +14,7 @@ O trabalho foi desenvolvido no âmbito da Unidade Curricular de **Segurança em 
 
 * **`./enunciado/`**: Imagem do esquema de rede e descrição do problema original (autorizado pelo docente).
 * **`./relatorio/`**: Relatório de análise e proposta de mitigação em formato PDF.
-* **`./scripts_e_dados/`**: Scripts Python utilizados para a demonstração criptográfica.
+* **`./script/`**: Script Python utilizado para a demonstração criptográfica.
 
 ---
 
@@ -67,6 +67,8 @@ A estratégia de mitigação focou-se na implementação de controlos ativos e p
 ## 🔐 Demonstração Criptográfica Híbrida
 
 Como parte da solução, foi demonstrada a importância e a implementação de uma solução criptográfica híbrida (`AES+RSA`) em Python, que garante a confidencialidade e integridade das comunicações.
+
+* **`./script/`**: [Código Python - Demonstração Criptográfica Híbrida](./script/cripto.py)
 
 * **AES (Simétrico):** Usado para a encriptação/decifração **rápida** de volumes de dados.
 * **RSA (Assimétrico):** Usado para a troca **segura** da chave de sessão AES, resolvendo o problema de gestão de chaves da encriptação simétrica.
